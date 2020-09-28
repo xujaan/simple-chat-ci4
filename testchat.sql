@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: localhost
--- Generation Time: Sep 28, 2020 at 04:57 PM
+-- Generation Time: Sep 28, 2020 at 04:59 PM
 -- Server version: 10.4.13-MariaDB
 -- PHP Version: 7.2.32
 
@@ -27,7 +27,6 @@ SET time_zone = "+00:00";
 -- Table structure for table `chat`
 --
 
-DROP TABLE IF EXISTS `chat`;
 CREATE TABLE `chat` (
   `id` int(11) NOT NULL,
   `user` varchar(10) DEFAULT NULL,
