@@ -45,10 +45,10 @@
 
         <!-- </div> -->
         <div class="row d-flex justify-content-center mt-5">
-            <div class="col-md-7 col-sm-12 overflow-auto" id="pesanbox" style="max-height: 60vh;">
+            <div class="col-md-7 col-sm-12 overflow-auto" id="pesanbox" style="max-height: 70vh;">
                 <!-- chat -->
             </div>
-            <div class=" col-md-7 col-sm-12">
+            <div class="col-md-7 col-sm-12 text-center">
                 <div class="card">
                     <div class="card-body">
                         <?php if (!session()->has('user')) : ?>
@@ -72,6 +72,7 @@
                         <?php endif; ?>
                     </div>
                 </div>
+                <a class="text-warning" href="https://github.com/xujaan/simple-chat-ci4" target="_blank"><small>download di github</small></a>
             </div>
         </div>
     </div>
