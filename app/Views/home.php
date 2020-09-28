@@ -72,7 +72,7 @@
                         <?php endif; ?>
                     </div>
                 </div>
-                <a class="text-warning" href="https://github.com/xujaan/simple-chat-ci4" target="_blank"><small>download di github</small></a>
+                <a class="text-warning" href="https://github.com/xujaan/simple-chat-ci4" target="_blank"><small>download source code di github</small></a>
             </div>
         </div>
     </div>
